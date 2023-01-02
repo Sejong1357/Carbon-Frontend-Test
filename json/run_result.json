@@ -1,0 +1,14 @@
+{
+	"id": 233196,
+	"test_id": 3104340,
+	"status_id": 5,
+	"created_on": 1665465837,
+	"assignedto_id": null,
+	"comment": "Precondition오류(복수구매할인)로 인해 자동화테스트 실패, ESM을 다시 확인해주세요.",
+	"version": null,
+	"elapsed": null,
+	"defects": null,
+	"created_by": 38,
+	"custom_step_results": null,
+	"attachment_ids": []
+}

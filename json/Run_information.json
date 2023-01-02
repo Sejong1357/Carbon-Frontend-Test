@@ -1,0 +1,812 @@
+[
+	{
+		"id": 3145663,
+		"case_id": 81061,
+		"status_id": 5,
+		"assignedto_id": null,
+		"run_id": 3124,
+		"title": "간편회원 > 일반상품 > 펀딩쿠폰(정액)_100원 + 판매자할인(정율)_1% > 일반결제 - 현금결제(무통장 입금) > 주문완료시 체결현황 확인",
+		"template_id": 2,
+		"type_id": 3,
+		"priority_id": 2,
+		"estimate": "10m",
+		"estimate_forecast": "10m",
+		"refs": "https://docs.google.com/spreadsheets/d/172GGDfEhzVJgAvnwW8FkX-ap0opQACtQa9t0vqeF6bU/edit#gid=1261413627",
+		"milestone_id": null,
+		"custom_dura_tc": null,
+		"custom_pfb_typeb": null,
+		"custom_automation_type": 0,
+		"custom_preconds": "Test 환경 : PC\n간편회원 : 간편회원(Test계정)\n일반상품\n상품번호:1100310534\n상품 가격 : 7,500원\n배송 조건 : 묶음 배송비(조건부/착불)\n배송지: 제주도 및 부속도서\n구매 수량 : 3개",
+		"custom_steps": null,
+		"custom_expected": null,
+		"custom_steps_separated": [
+			{
+				"content": "1.VIP진입",
+				"expected": "1.할인 및 쿠폰 정상적으로 적용 되어야 함.\n![](index.php?/attachments/get/40414)",
+				"additional_info": "",
+				"refs": ""
+			},
+			{
+				"content": "1. 주문서 진입\n일반결제 - 현금결제(무통장 입금)",
+				"expected": "1.주문금액이 정상적으로 적용 되어야 함.\n![](index.php?/attachments/get/40416)",
+				"additional_info": "",
+				"refs": ""
+			},
+			{
+				"content": "1. MY G 페이지 진입\n2. G_ADMIN (정산관리>>거래현황>>체결현황) 진입",
+				"expected": "1. MY G 페이지의 할인금액, 결제금액과 G_ADMIN의 할인금액, 결제금액 등 동일해야 함\n![](index.php?/attachments/get/22337)\n![](index.php?/attachments/get/22338)",
+				"additional_info": "",
+				"refs": ""
+			}
+		],
+		"custom_mission": null,
+		"custom_goals": null,
+		"sections_display_order": 54,
+		"cases_display_order": 40
+	},
+	{
+		"id": 3145664,
+		"case_id": 81062,
+		"status_id": 3,
+		"assignedto_id": null,
+		"run_id": 3124,
+		"title": "간편회원 > 환금성상품 > 일반결제 - 휴대폰 결제 > 주문완료시 체결현황 확인",
+		"template_id": 2,
+		"type_id": 3,
+		"priority_id": 2,
+		"estimate": "10m",
+		"estimate_forecast": "10m",
+		"refs": "https://docs.google.com/spreadsheets/d/172GGDfEhzVJgAvnwW8FkX-ap0opQACtQa9t0vqeF6bU/edit#gid=1261413627",
+		"milestone_id": null,
+		"custom_dura_tc": null,
+		"custom_pfb_typeb": null,
+		"custom_automation_type": 0,
+		"custom_preconds": "Test 환경 : PC\r\n간편회원 : 간편회원(Test계정)\r\n환금성상품\r\n상품번호:1100310604\r\n상품 가격 : 3,400원\r\n배송 조건 : 묶음 배송비(조건부/착불)\r\n배송지: 도서\r\n구매 수량 : 3개",
+		"custom_steps": null,
+		"custom_expected": null,
+		"custom_steps_separated": [
+			{
+				"content": "1.VIP진입",
+				"expected": "1.할인 및 쿠폰 정상적으로 적용 되어야 함.\n![](index.php?/attachments/get/40414)",
+				"additional_info": "",
+				"refs": ""
+			},
+			{
+				"content": "1. 주문서 진입\n일반결제 - 휴대폰 결제",
+				"expected": "1.주문금액이 정상적으로 적용 되어야 함.\n![](index.php?/attachments/get/40416)",
+				"additional_info": "",
+				"refs": ""
+			},
+			{
+				"content": "1. MY G 페이지 진입\n2. G_ADMIN (정산관리>>거래현황>>체결현황) 진입",
+				"expected": "1. MY G 페이지의 할인금액, 결제금액과 G_ADMIN의 할인금액, 결제금액 등 동일해야 함\n![](index.php?/attachments/get/22337)\n![](index.php?/attachments/get/22338)",
+				"additional_info": "",
+				"refs": ""
+			}
+		],
+		"custom_mission": null,
+		"custom_goals": null,
+		"sections_display_order": 54,
+		"cases_display_order": 41
+	},
+	{
+		"id": 3145665,
+		"case_id": 81063,
+		"status_id": 3,
+		"assignedto_id": null,
+		"run_id": 3124,
+		"title": "일반/클럽회원 > 통관상품(해외배송) > 바이어쿠폰(정액)_100원 + 판매자할인(정액)_500원 > 간편결제(SmilePay)-휴대폰 간편결제 > 주문완료시 체결현황 확인",
+		"template_id": 2,
+		"type_id": 3,
+		"priority_id": 2,
+		"estimate": "10m",
+		"estimate_forecast": "10m",
+		"refs": "https://docs.google.com/spreadsheets/d/172GGDfEhzVJgAvnwW8FkX-ap0opQACtQa9t0vqeF6bU/edit#gid=1261413627",
+		"milestone_id": null,
+		"custom_dura_tc": null,
+		"custom_pfb_typeb": null,
+		"custom_automation_type": 0,
+		"custom_preconds": "Test 환경 : PC\n일반/클럽회원 : 일반/클럽회원(Test계정)\n통관상품(해외배송)\n상품번호:1100297972\n상품 가격 : 7,500원\n배송 조건 : 상품별 배송비(조건부/선결제)\n배송지: 제주도 및 부속도서\n구매 수량 : 2개",
+		"custom_steps": null,
+		"custom_expected": null,
+		"custom_steps_separated": [
+			{
+				"content": "1.VIP진입",
+				"expected": "1.할인 및 쿠폰 정상적으로 적용 되어야 함.\n![](index.php?/attachments/get/40414)",
+				"additional_info": "",
+				"refs": ""
+			},
+			{
+				"content": "1. 주문서 진입\n간편결제(SmilePay)-휴대폰 간편결제",
+				"expected": "1.주문금액이 정상적으로 적용 되어야 함.\n![](index.php?/attachments/get/40416)",
+				"additional_info": "",
+				"refs": ""
+			},
+			{
+				"content": "1. MY G 페이지 진입\n2. G_ADMIN (정산관리>>거래현황>>체결현황) 진입",
+				"expected": "1. MY G 페이지의 할인금액, 결제금액과 G_ADMIN의 할인금액, 결제금액 등 동일해야 함\n![](index.php?/attachments/get/22337)\n![](index.php?/attachments/get/22338)",
+				"additional_info": "",
+				"refs": ""
+			}
+		],
+		"custom_mission": null,
+		"custom_goals": null,
+		"sections_display_order": 54,
+		"cases_display_order": 42
+	},
+	{
+		"id": 3145666,
+		"case_id": 81064,
+		"status_id": 3,
+		"assignedto_id": null,
+		"run_id": 3124,
+		"title": "비회원 > 부가세면세상품 > 일반결제 - 현금결제(무통장 입금) > 주문완료시 체결현황 확인",
+		"template_id": 2,
+		"type_id": 3,
+		"priority_id": 2,
+		"estimate": "10m",
+		"estimate_forecast": "10m",
+		"refs": "https://docs.google.com/spreadsheets/d/172GGDfEhzVJgAvnwW8FkX-ap0opQACtQa9t0vqeF6bU/edit#gid=1261413627",
+		"milestone_id": null,
+		"custom_dura_tc": null,
+		"custom_pfb_typeb": null,
+		"custom_automation_type": 0,
+		"custom_preconds": "Test 환경 : PC\n비회원 : 없음(Test계정)\n부가세면세상품\n상품번호:1100309995\n상품 가격 : 7,000원\n배송 조건 : 배송비(무료)\n배송지: 도서지방 및 기타 산간지방\n구매 수량 : 4개",
+		"custom_steps": null,
+		"custom_expected": null,
+		"custom_steps_separated": [
+			{
+				"content": "1.VIP진입",
+				"expected": "1.할인 및 쿠폰 정상적으로 적용 되어야 함.\n![](index.php?/attachments/get/40414)",
+				"additional_info": "",
+				"refs": ""
+			},
+			{
+				"content": "1. 주문서 진입\n일반결제 - 현금결제(무통장 입금)",
+				"expected": "1.주문금액이 정상적으로 적용 되어야 함.\n![](index.php?/attachments/get/40416)",
+				"additional_info": "",
+				"refs": ""
+			},
+			{
+				"content": "1. MY G 페이지 진입\n2. G_ADMIN (정산관리>>거래현황>>체결현황) 진입",
+				"expected": "1. MY G 페이지의 할인금액, 결제금액과 G_ADMIN의 할인금액, 결제금액 등 동일해야 함\n![](index.php?/attachments/get/22337)\n![](index.php?/attachments/get/22338)",
+				"additional_info": "",
+				"refs": ""
+			}
+		],
+		"custom_mission": null,
+		"custom_goals": null,
+		"sections_display_order": 54,
+		"cases_display_order": 43
+	},
+	{
+		"id": 3145667,
+		"case_id": 81065,
+		"status_id": 3,
+		"assignedto_id": null,
+		"run_id": 3124,
+		"title": "비회원 > 스마일배송 > 일반결제 - 신용/체크카드결제 > 주문완료시 체결현황 확인",
+		"template_id": 2,
+		"type_id": 3,
+		"priority_id": 2,
+		"estimate": "10m",
+		"estimate_forecast": "10m",
+		"refs": "https://docs.google.com/spreadsheets/d/172GGDfEhzVJgAvnwW8FkX-ap0opQACtQa9t0vqeF6bU/edit#gid=1261413627",
+		"milestone_id": null,
+		"custom_dura_tc": null,
+		"custom_pfb_typeb": null,
+		"custom_automation_type": 0,
+		"custom_preconds": "Test 환경 : PC\n비회원 : 없음(Test계정)\n스마일배송\n상품번호:1100310514\n상품 가격 : 5,900원\n배송 조건 : 배송비(유료/선결제)\n배송지: 기본\n구매 수량 : 3개",
+		"custom_steps": null,
+		"custom_expected": null,
+		"custom_steps_separated": [
+			{
+				"content": "1.VIP진입",
+				"expected": "1.할인 및 쿠폰 정상적으로 적용 되어야 함.\n![](index.php?/attachments/get/40414)",
+				"additional_info": "",
+				"refs": ""
+			},
+			{
+				"content": "1. 주문서 진입\n일반결제 - 신용/체크카드결제",
+				"expected": "1.주문금액이 정상적으로 적용 되어야 함.\n![](index.php?/attachments/get/40416)",
+				"additional_info": "",
+				"refs": ""
+			},
+			{
+				"content": "1. MY G 페이지 진입\n2. G_ADMIN (정산관리>>거래현황>>체결현황) 진입",
+				"expected": "1. MY G 페이지의 할인금액, 결제금액과 G_ADMIN의 할인금액, 결제금액 등 동일해야 함\n![](index.php?/attachments/get/22337)\n![](index.php?/attachments/get/22338)",
+				"additional_info": "",
+				"refs": ""
+			}
+		],
+		"custom_mission": null,
+		"custom_goals": null,
+		"sections_display_order": 54,
+		"cases_display_order": 44
+	},
+	{
+		"id": 3145668,
+		"case_id": 81066,
+		"status_id": 3,
+		"assignedto_id": null,
+		"run_id": 3124,
+		"title": "비회원 > 더빠른배송-새벽 > 일반결제 - 현금결제(무통장 입금) > 주문완료시 체결현황 확인",
+		"template_id": 2,
+		"type_id": 3,
+		"priority_id": 2,
+		"estimate": "10m",
+		"estimate_forecast": "10m",
+		"refs": "https://docs.google.com/spreadsheets/d/172GGDfEhzVJgAvnwW8FkX-ap0opQACtQa9t0vqeF6bU/edit#gid=1261413627",
+		"milestone_id": null,
+		"custom_dura_tc": null,
+		"custom_pfb_typeb": null,
+		"custom_automation_type": 0,
+		"custom_preconds": "Test 환경 : PC\n비회원 : 없음(Test계정)\n더빠른배송-새벽\n상품번호:1100343352\n상품 가격 : 7,300원\n배송 조건 : 배송비(유료/선결제)\n배송지: 기본\n구매 수량 : 4개",
+		"custom_steps": null,
+		"custom_expected": null,
+		"custom_steps_separated": [
+			{
+				"content": "1.VIP진입",
+				"expected": "1.할인 및 쿠폰 정상적으로 적용 되어야 함.\n![](index.php?/attachments/get/40414)",
+				"additional_info": "",
+				"refs": ""
+			},
+			{
+				"content": "1. 주문서 진입\n일반결제 - 현금결제(무통장 입금)",
+				"expected": "1.주문금액이 정상적으로 적용 되어야 함.\n![](index.php?/attachments/get/40416)",
+				"additional_info": "",
+				"refs": ""
+			},
+			{
+				"content": "1. MY G 페이지 진입\n2. G_ADMIN (정산관리>>거래현황>>체결현황) 진입",
+				"expected": "1. MY G 페이지의 할인금액, 결제금액과 G_ADMIN의 할인금액, 결제금액 등 동일해야 함\n![](index.php?/attachments/get/22337)\n![](index.php?/attachments/get/22338)",
+				"additional_info": "",
+				"refs": ""
+			}
+		],
+		"custom_mission": null,
+		"custom_goals": null,
+		"sections_display_order": 54,
+		"cases_display_order": 45
+	},
+	{
+		"id": 3145669,
+		"case_id": 81067,
+		"status_id": 3,
+		"assignedto_id": null,
+		"run_id": 3124,
+		"title": "일반회원 > 성인용품 > 일반결제 - 현금결제(무통장 입금) > 주문완료시 체결현황 확인",
+		"template_id": 2,
+		"type_id": 3,
+		"priority_id": 2,
+		"estimate": "10m",
+		"estimate_forecast": "10m",
+		"refs": "https://docs.google.com/spreadsheets/d/172GGDfEhzVJgAvnwW8FkX-ap0opQACtQa9t0vqeF6bU/edit#gid=1261413627",
+		"milestone_id": null,
+		"custom_dura_tc": null,
+		"custom_pfb_typeb": null,
+		"custom_automation_type": 0,
+		"custom_preconds": "Test 환경 : PC\n일반회원 : 일반회원(Test계정)\n성인용품\n상품번호:1100310520\n상품 가격 : 2,200원\n배송 조건 : 상품별 배송비(수량별차등/배송비구간직접입력/선결제)\n배송지: 도서지방 및 기타 산간지방\n구매 수량 : 1개",
+		"custom_steps": null,
+		"custom_expected": null,
+		"custom_steps_separated": [
+			{
+				"content": "1.VIP진입",
+				"expected": "1.할인 및 쿠폰 정상적으로 적용 되어야 함.\n![](index.php?/attachments/get/40414)",
+				"additional_info": "",
+				"refs": ""
+			},
+			{
+				"content": "1. 주문서 진입\n일반결제 - 현금결제(무통장 입금)",
+				"expected": "1.주문금액이 정상적으로 적용 되어야 함.\n![](index.php?/attachments/get/40416)",
+				"additional_info": "",
+				"refs": ""
+			},
+			{
+				"content": "1. MY G 페이지 진입\n2. G_ADMIN (정산관리>>거래현황>>체결현황) 진입",
+				"expected": "1. MY G 페이지의 할인금액, 결제금액과 G_ADMIN의 할인금액, 결제금액 등 동일해야 함\n![](index.php?/attachments/get/22337)\n![](index.php?/attachments/get/22338)",
+				"additional_info": "",
+				"refs": ""
+			}
+		],
+		"custom_mission": null,
+		"custom_goals": null,
+		"sections_display_order": 54,
+		"cases_display_order": 46
+	},
+	{
+		"id": 3145670,
+		"case_id": 81068,
+		"status_id": 3,
+		"assignedto_id": null,
+		"run_id": 3124,
+		"title": "비회원 > 타이어장착 > 일반결제 - 현금결제(무통장 입금) > 주문완료시 체결현황 확인",
+		"template_id": 2,
+		"type_id": 3,
+		"priority_id": 2,
+		"estimate": "10m",
+		"estimate_forecast": "10m",
+		"refs": "https://docs.google.com/spreadsheets/d/172GGDfEhzVJgAvnwW8FkX-ap0opQACtQa9t0vqeF6bU/edit#gid=1261413627",
+		"milestone_id": null,
+		"custom_dura_tc": null,
+		"custom_pfb_typeb": null,
+		"custom_automation_type": 0,
+		"custom_preconds": "Test 환경 : PC\n비회원 : 없음(Test계정)\n타이어장착\n상품번호:1100256965\n상품 가격 : 3,400원\n배송 조건 : 타이어 장착점에 타이어가 배송되는 비용\n배송지: 제주도 및 부속도서\n구매 수량 : 2개",
+		"custom_steps": null,
+		"custom_expected": null,
+		"custom_steps_separated": [
+			{
+				"content": "1.VIP진입",
+				"expected": "1.할인 및 쿠폰 정상적으로 적용 되어야 함.\n![](index.php?/attachments/get/40414)",
+				"additional_info": "",
+				"refs": ""
+			},
+			{
+				"content": "1. 주문서 진입\n일반결제 - 현금결제(무통장 입금)",
+				"expected": "1.주문금액이 정상적으로 적용 되어야 함.\n![](index.php?/attachments/get/40416)",
+				"additional_info": "",
+				"refs": ""
+			},
+			{
+				"content": "1. MY G 페이지 진입\n2. G_ADMIN (정산관리>>거래현황>>체결현황) 진입",
+				"expected": "1. MY G 페이지의 할인금액, 결제금액과 G_ADMIN의 할인금액, 결제금액 등 동일해야 함\n![](index.php?/attachments/get/22337)\n![](index.php?/attachments/get/22338)",
+				"additional_info": "",
+				"refs": ""
+			}
+		],
+		"custom_mission": null,
+		"custom_goals": null,
+		"sections_display_order": 54,
+		"cases_display_order": 47
+	},
+	{
+		"id": 3145671,
+		"case_id": 81069,
+		"status_id": 3,
+		"assignedto_id": null,
+		"run_id": 3124,
+		"title": "사업자회원 > Biz-on > 마케팅쿠폰(정율)_1% + 복수구매할인(정액)_300원 > 일반결제 - 휴대폰 결제 > 주문완료시 체결현황 확인",
+		"template_id": 2,
+		"type_id": 3,
+		"priority_id": 2,
+		"estimate": "10m",
+		"estimate_forecast": "10m",
+		"refs": "https://docs.google.com/spreadsheets/d/172GGDfEhzVJgAvnwW8FkX-ap0opQACtQa9t0vqeF6bU/edit#gid=1261413627",
+		"milestone_id": null,
+		"custom_dura_tc": null,
+		"custom_pfb_typeb": null,
+		"custom_automation_type": 0,
+		"custom_preconds": "Test 환경 : PC\n사업자회원 : 사업자회원(Test계정)\nBiz-on\n상품번호:1100310601\n상품 가격 : 6,200원\n배송 조건 : 상품별 배송비(무료)\n배송지: 제주도 및 부속도서\n구매 수량 : 3개",
+		"custom_steps": null,
+		"custom_expected": null,
+		"custom_steps_separated": [
+			{
+				"content": "1.VIP진입",
+				"expected": "1.할인 및 쿠폰 정상적으로 적용 되어야 함.\n![](index.php?/attachments/get/40414)",
+				"additional_info": "",
+				"refs": ""
+			},
+			{
+				"content": "1. 주문서 진입\n일반결제 - 휴대폰 결제",
+				"expected": "1.주문금액이 정상적으로 적용 되어야 함.\n![](index.php?/attachments/get/40416)",
+				"additional_info": "",
+				"refs": ""
+			},
+			{
+				"content": "1. MY G 페이지 진입\n2. G_ADMIN (정산관리>>거래현황>>체결현황) 진입",
+				"expected": "1. MY G 페이지의 할인금액, 결제금액과 G_ADMIN의 할인금액, 결제금액 등 동일해야 함\n![](index.php?/attachments/get/22337)\n![](index.php?/attachments/get/22338)",
+				"additional_info": "",
+				"refs": ""
+			}
+		],
+		"custom_mission": null,
+		"custom_goals": null,
+		"sections_display_order": 54,
+		"cases_display_order": 48
+	},
+	{
+		"id": 3145672,
+		"case_id": 81070,
+		"status_id": 3,
+		"assignedto_id": null,
+		"run_id": 3124,
+		"title": "사업자회원 > 사업자 스마일클럽전용 상품(Club biz) > 일반결제 - 현금결제(무통장 입금) > 주문완료시 체결현황 확인",
+		"template_id": 2,
+		"type_id": 3,
+		"priority_id": 2,
+		"estimate": "10m",
+		"estimate_forecast": "10m",
+		"refs": "https://docs.google.com/spreadsheets/d/172GGDfEhzVJgAvnwW8FkX-ap0opQACtQa9t0vqeF6bU/edit#gid=1261413627",
+		"milestone_id": null,
+		"custom_dura_tc": null,
+		"custom_pfb_typeb": null,
+		"custom_automation_type": 0,
+		"custom_preconds": "Test 환경 : PC\n사업자회원 : 사업자회원(Test계정)\n사업자 스마일클럽전용 상품(Club biz)\n상품번호:1100310005\n상품 가격 : 6,500원\n배송 조건 : 묶음 배송비(조건부/선결제)\n배송지: 도서지방 및 기타 산간지방\n구매 수량 : 2개",
+		"custom_steps": null,
+		"custom_expected": null,
+		"custom_steps_separated": [
+			{
+				"content": "1.VIP진입",
+				"expected": "1.할인 및 쿠폰 정상적으로 적용 되어야 함.\n![](index.php?/attachments/get/40414)",
+				"additional_info": "",
+				"refs": ""
+			},
+			{
+				"content": "1. 주문서 진입\n일반결제 - 현금결제(무통장 입금)",
+				"expected": "1.주문금액이 정상적으로 적용 되어야 함.\n![](index.php?/attachments/get/40416)",
+				"additional_info": "",
+				"refs": ""
+			},
+			{
+				"content": "1. MY G 페이지 진입\n2. G_ADMIN (정산관리>>거래현황>>체결현황) 진입",
+				"expected": "1. MY G 페이지의 할인금액, 결제금액과 G_ADMIN의 할인금액, 결제금액 등 동일해야 함\n![](index.php?/attachments/get/22337)\n![](index.php?/attachments/get/22338)",
+				"additional_info": "",
+				"refs": ""
+			}
+		],
+		"custom_mission": null,
+		"custom_goals": null,
+		"sections_display_order": 54,
+		"cases_display_order": 49
+	},
+	{
+		"id": 3145673,
+		"case_id": 81071,
+		"status_id": 3,
+		"assignedto_id": null,
+		"run_id": 3124,
+		"title": "SFC회원 > SFC몰 > 일반결제 - 신용/체크카드결제 > 주문완료시 체결현황 확인",
+		"template_id": 2,
+		"type_id": 3,
+		"priority_id": 2,
+		"estimate": "10m",
+		"estimate_forecast": "10m",
+		"refs": "https://docs.google.com/spreadsheets/d/172GGDfEhzVJgAvnwW8FkX-ap0opQACtQa9t0vqeF6bU/edit#gid=1261413627",
+		"milestone_id": null,
+		"custom_dura_tc": null,
+		"custom_pfb_typeb": null,
+		"custom_automation_type": 0,
+		"custom_preconds": "Test 환경 : PC\nSFC회원 : SFC회원(Test계정)\nSFC몰\n상품번호:1100290758\n상품 가격 : 2,800원\n배송 조건 : 상품별 배송비(무료)\n배송지: 기본\n구매 수량 : 3개",
+		"custom_steps": null,
+		"custom_expected": null,
+		"custom_steps_separated": [
+			{
+				"content": "1.VIP진입",
+				"expected": "1.할인 및 쿠폰 정상적으로 적용 되어야 함.\n![](index.php?/attachments/get/40414)",
+				"additional_info": "",
+				"refs": ""
+			},
+			{
+				"content": "1. 주문서 진입\n일반결제 - 신용/체크카드결제",
+				"expected": "1.주문금액이 정상적으로 적용 되어야 함.\n![](index.php?/attachments/get/40416)",
+				"additional_info": "",
+				"refs": ""
+			},
+			{
+				"content": "1. MY G 페이지 진입\n2. G_ADMIN (정산관리>>거래현황>>체결현황) 진입",
+				"expected": "1. MY G 페이지의 할인금액, 결제금액과 G_ADMIN의 할인금액, 결제금액 등 동일해야 함\n![](index.php?/attachments/get/22337)\n![](index.php?/attachments/get/22338)",
+				"additional_info": "",
+				"refs": ""
+			}
+		],
+		"custom_mission": null,
+		"custom_goals": null,
+		"sections_display_order": 54,
+		"cases_display_order": 50
+	},
+	{
+		"id": 3145674,
+		"case_id": 81072,
+		"status_id": 3,
+		"assignedto_id": null,
+		"run_id": 3124,
+		"title": "클럽회원 > 100원상품 > 일반결제 - 휴대폰 결제 > 주문완료시 체결현황 확인",
+		"template_id": 2,
+		"type_id": 3,
+		"priority_id": 2,
+		"estimate": "10m",
+		"estimate_forecast": "10m",
+		"refs": "https://docs.google.com/spreadsheets/d/172GGDfEhzVJgAvnwW8FkX-ap0opQACtQa9t0vqeF6bU/edit#gid=1261413627",
+		"milestone_id": null,
+		"custom_dura_tc": null,
+		"custom_pfb_typeb": null,
+		"custom_automation_type": 0,
+		"custom_preconds": "Test 환경 : PC\n스마일클럽회원 : 클럽회원(Test계정)\n100원상품\n상품번호:1100310041\n상품 가격 : 100원\n배송 조건 : 배송비없음,상담상품\n배송지: 제주도 및 부속도서\n구매 수량 : 1개",
+		"custom_steps": null,
+		"custom_expected": null,
+		"custom_steps_separated": [
+			{
+				"content": "1.VIP진입",
+				"expected": "1.할인 및 쿠폰 정상적으로 적용 되어야 함.\n![](index.php?/attachments/get/40414)",
+				"additional_info": "",
+				"refs": ""
+			},
+			{
+				"content": "1. 주문서 진입\n일반결제 - 휴대폰 결제",
+				"expected": "1.주문금액이 정상적으로 적용 되어야 함.\n![](index.php?/attachments/get/40416)",
+				"additional_info": "",
+				"refs": ""
+			},
+			{
+				"content": "1. MY G 페이지 진입\n2. G_ADMIN (정산관리>>거래현황>>체결현황) 진입",
+				"expected": "1. MY G 페이지의 할인금액, 결제금액과 G_ADMIN의 할인금액, 결제금액 등 동일해야 함\n![](index.php?/attachments/get/22337)\n![](index.php?/attachments/get/22338)",
+				"additional_info": "",
+				"refs": ""
+			}
+		],
+		"custom_mission": null,
+		"custom_goals": null,
+		"sections_display_order": 54,
+		"cases_display_order": 51
+	},
+	{
+		"id": 3145675,
+		"case_id": 81073,
+		"status_id": 3,
+		"assignedto_id": null,
+		"run_id": 3124,
+		"title": "간편회원 > 방문수령 > 바이어쿠폰(정율)_1% > 일반결제 - 신용/체크카드결제 > 주문완료시 체결현황 확인",
+		"template_id": 2,
+		"type_id": 3,
+		"priority_id": 2,
+		"estimate": "10m",
+		"estimate_forecast": "10m",
+		"refs": "https://docs.google.com/spreadsheets/d/172GGDfEhzVJgAvnwW8FkX-ap0opQACtQa9t0vqeF6bU/edit#gid=1261413627",
+		"milestone_id": null,
+		"custom_dura_tc": null,
+		"custom_pfb_typeb": null,
+		"custom_automation_type": 0,
+		"custom_preconds": "Test 환경 : PC\n간편회원 : 간편회원(Test계정)\n방문수령\n상품번호:1100310533\n상품 가격 : 4,600원\n배송 조건 : 직접 찾아가서 받기(방문수령)\n배송지: 도서지방 및 기타 산간지방\n구매 수량 : 3개",
+		"custom_steps": null,
+		"custom_expected": null,
+		"custom_steps_separated": [
+			{
+				"content": "1.VIP진입",
+				"expected": "1.할인 및 쿠폰 정상적으로 적용 되어야 함.\n![](index.php?/attachments/get/40414)",
+				"additional_info": "",
+				"refs": ""
+			},
+			{
+				"content": "1. 주문서 진입\n일반결제 - 신용/체크카드결제",
+				"expected": "1.주문금액이 정상적으로 적용 되어야 함.\n![](index.php?/attachments/get/40416)",
+				"additional_info": "",
+				"refs": ""
+			},
+			{
+				"content": "1. MY G 페이지 진입\n2. G_ADMIN (정산관리>>거래현황>>체결현황) 진입",
+				"expected": "1. MY G 페이지의 할인금액, 결제금액과 G_ADMIN의 할인금액, 결제금액 등 동일해야 함\n![](index.php?/attachments/get/22337)\n![](index.php?/attachments/get/22338)",
+				"additional_info": "",
+				"refs": ""
+			}
+		],
+		"custom_mission": null,
+		"custom_goals": null,
+		"sections_display_order": 54,
+		"cases_display_order": 52
+	},
+	{
+		"id": 3145676,
+		"case_id": 81074,
+		"status_id": 3,
+		"assignedto_id": null,
+		"run_id": 3124,
+		"title": "일반회원 > 최대구매제한-구매자1명 > 바이어쿠폰(정액)_100원 + 판매자할인(정율)_1% > 간편결제(SmilePay)-신용/체크카드 > 주문완료시 체결현황 확인",
+		"template_id": 2,
+		"type_id": 3,
+		"priority_id": 2,
+		"estimate": "10m",
+		"estimate_forecast": "10m",
+		"refs": "https://docs.google.com/spreadsheets/d/172GGDfEhzVJgAvnwW8FkX-ap0opQACtQa9t0vqeF6bU/edit#gid=1261413627",
+		"milestone_id": null,
+		"custom_dura_tc": null,
+		"custom_pfb_typeb": null,
+		"custom_automation_type": 0,
+		"custom_preconds": "Test 환경 : PC\n일반회원 : 일반회원(Test계정)\n최대구매제한-구매자1명\n상품번호:1100310491\n상품 가격 : 2,600원\n배송 조건 : 상품별 배송비(수량별차등/배송비구간직접입력/선결제)\n배송지: 제주도 및 부속도서\n구매 수량 : 1개",
+		"custom_steps": null,
+		"custom_expected": null,
+		"custom_steps_separated": [
+			{
+				"content": "1.VIP진입",
+				"expected": "1.할인 및 쿠폰 정상적으로 적용 되어야 함.\n![](index.php?/attachments/get/40414)",
+				"additional_info": "",
+				"refs": ""
+			},
+			{
+				"content": "1. 주문서 진입\n간편결제(SmilePay)-신용/체크카드",
+				"expected": "1.주문금액이 정상적으로 적용 되어야 함.\n![](index.php?/attachments/get/40416)",
+				"additional_info": "",
+				"refs": ""
+			},
+			{
+				"content": "1. MY G 페이지 진입\n2. G_ADMIN (정산관리>>거래현황>>체결현황) 진입",
+				"expected": "1. MY G 페이지의 할인금액, 결제금액과 G_ADMIN의 할인금액, 결제금액 등 동일해야 함\n![](index.php?/attachments/get/22337)\n![](index.php?/attachments/get/22338)",
+				"additional_info": "",
+				"refs": ""
+			}
+		],
+		"custom_mission": null,
+		"custom_goals": null,
+		"sections_display_order": 54,
+		"cases_display_order": 53
+	},
+	{
+		"id": 3145677,
+		"case_id": 81075,
+		"status_id": 3,
+		"assignedto_id": null,
+		"run_id": 3124,
+		"title": "클럽회원 > 최대구매제한-X일당X개 > 마케팅쿠폰(정율)_1% + 복수구매할인(정율)_1% > 일반결제 - 현금결제(무통장 입금) > 주문완료시 체결현황 확인",
+		"template_id": 2,
+		"type_id": 3,
+		"priority_id": 2,
+		"estimate": "10m",
+		"estimate_forecast": "10m",
+		"refs": "https://docs.google.com/spreadsheets/d/172GGDfEhzVJgAvnwW8FkX-ap0opQACtQa9t0vqeF6bU/edit#gid=1261413627",
+		"milestone_id": null,
+		"custom_dura_tc": null,
+		"custom_pfb_typeb": null,
+		"custom_automation_type": 0,
+		"custom_preconds": "Test 환경 : PC\n스마일클럽회원 : 클럽회원(Test계정)\n최대구매제한-X일당X개\n상품번호:1100310549\n상품 가격 : 4,800원\n배송 조건 : 상품별 배송비(수량별차등/구매수량별 반복추가/선결제)\n배송지: 도서지방 및 기타 산간지방\n구매 수량 : 3개",
+		"custom_steps": null,
+		"custom_expected": null,
+		"custom_steps_separated": [
+			{
+				"content": "1.VIP진입",
+				"expected": "1.할인 및 쿠폰 정상적으로 적용 되어야 함.\n![](index.php?/attachments/get/40414)",
+				"additional_info": "",
+				"refs": ""
+			},
+			{
+				"content": "1. 주문서 진입\n일반결제 - 현금결제(무통장 입금)",
+				"expected": "1.주문금액이 정상적으로 적용 되어야 함.\n![](index.php?/attachments/get/40416)",
+				"additional_info": "",
+				"refs": ""
+			},
+			{
+				"content": "1. MY G 페이지 진입\n2. G_ADMIN (정산관리>>거래현황>>체결현황) 진입",
+				"expected": "1. MY G 페이지의 할인금액, 결제금액과 G_ADMIN의 할인금액, 결제금액 등 동일해야 함\n![](index.php?/attachments/get/22337)\n![](index.php?/attachments/get/22338)",
+				"additional_info": "",
+				"refs": ""
+			}
+		],
+		"custom_mission": null,
+		"custom_goals": null,
+		"sections_display_order": 54,
+		"cases_display_order": 54
+	},
+	{
+		"id": 3145678,
+		"case_id": 81076,
+		"status_id": 3,
+		"assignedto_id": null,
+		"run_id": 3124,
+		"title": "일반/클럽회원 > 3개조합+계산형+추가구성 > 카드사 즉시할인(정율)_1% > 일반결제 - 현금결제(무통장 입금) > 주문완료시 체결현황 확인",
+		"template_id": 2,
+		"type_id": 3,
+		"priority_id": 2,
+		"estimate": "10m",
+		"estimate_forecast": "10m",
+		"refs": "https://docs.google.com/spreadsheets/d/172GGDfEhzVJgAvnwW8FkX-ap0opQACtQa9t0vqeF6bU/edit#gid=1261413627",
+		"milestone_id": null,
+		"custom_dura_tc": null,
+		"custom_pfb_typeb": null,
+		"custom_automation_type": 0,
+		"custom_preconds": "Test 환경 : PC\n일반/클럽회원 : 일반/클럽회원(Test계정)\n3개조합+계산형+추가구성\n상품번호:1100310515\n상품 가격 : 8,600원\n배송 조건 : 상품별 배송비(조건부/선결제)\n배송지: 도서지방 및 기타 산간지방\n구매 수량 : 4개",
+		"custom_steps": null,
+		"custom_expected": null,
+		"custom_steps_separated": [
+			{
+				"content": "1.VIP진입",
+				"expected": "1.할인 및 쿠폰 정상적으로 적용 되어야 함.\n![](index.php?/attachments/get/40414)",
+				"additional_info": "",
+				"refs": ""
+			},
+			{
+				"content": "1. 주문서 진입\n일반결제 - 현금결제(무통장 입금)",
+				"expected": "1.주문금액이 정상적으로 적용 되어야 함.\n![](index.php?/attachments/get/40416)",
+				"additional_info": "",
+				"refs": ""
+			},
+			{
+				"content": "1. MY G 페이지 진입\n2. G_ADMIN (정산관리>>거래현황>>체결현황) 진입",
+				"expected": "1. MY G 페이지의 할인금액, 결제금액과 G_ADMIN의 할인금액, 결제금액 등 동일해야 함\n![](index.php?/attachments/get/22337)\n![](index.php?/attachments/get/22338)",
+				"additional_info": "",
+				"refs": ""
+			}
+		],
+		"custom_mission": null,
+		"custom_goals": null,
+		"sections_display_order": 54,
+		"cases_display_order": 55
+	},
+	{
+		"id": 3145679,
+		"case_id": 81077,
+		"status_id": 3,
+		"assignedto_id": null,
+		"run_id": 3124,
+		"title": "간편회원 > 옵션 이미지+3개조합+텍스트+추가구성 > 펀딩쿠폰(정율)_1% + 복수구매할인(정율)_3% > 일반결제 - 신용/체크카드결제 > 주문완료시 체결현황 확인",
+		"template_id": 2,
+		"type_id": 3,
+		"priority_id": 2,
+		"estimate": "10m",
+		"estimate_forecast": "10m",
+		"refs": "https://docs.google.com/spreadsheets/d/172GGDfEhzVJgAvnwW8FkX-ap0opQACtQa9t0vqeF6bU/edit#gid=1261413627",
+		"milestone_id": null,
+		"custom_dura_tc": null,
+		"custom_pfb_typeb": null,
+		"custom_automation_type": 0,
+		"custom_preconds": "Test 환경 : PC\n간편회원 : 간편회원(Test계정)\n옵션 이미지+3개조합+텍스트+추가구성\n상품번호:1100310573\n상품 가격 : 5,000원\n배송 조건 : 상품별 배송비(무료)\n배송지: 기본\n구매 수량 : 3개",
+		"custom_steps": null,
+		"custom_expected": null,
+		"custom_steps_separated": [
+			{
+				"content": "1.VIP진입",
+				"expected": "1.할인 및 쿠폰 정상적으로 적용 되어야 함.\n![](index.php?/attachments/get/40414)",
+				"additional_info": "",
+				"refs": ""
+			},
+			{
+				"content": "1. 주문서 진입\n일반결제 - 신용/체크카드결제",
+				"expected": "1.주문금액이 정상적으로 적용 되어야 함.\n![](index.php?/attachments/get/40416)",
+				"additional_info": "",
+				"refs": ""
+			},
+			{
+				"content": "1. MY G 페이지 진입\n2. G_ADMIN (정산관리>>거래현황>>체결현황) 진입",
+				"expected": "1. MY G 페이지의 할인금액, 결제금액과 G_ADMIN의 할인금액, 결제금액 등 동일해야 함\n![](index.php?/attachments/get/22337)\n![](index.php?/attachments/get/22338)",
+				"additional_info": "",
+				"refs": ""
+			}
+		],
+		"custom_mission": null,
+		"custom_goals": null,
+		"sections_display_order": 54,
+		"cases_display_order": 56
+	},
+	{
+		"id": 3145680,
+		"case_id": 81078,
+		"status_id": 3,
+		"assignedto_id": null,
+		"run_id": 3124,
+		"title": "클럽회원 > 사은품/덤 > 복수구매할인(정액)_300원 > 일반결제 - 신용/체크카드결제 > 주문완료시 체결현황 확인",
+		"template_id": 2,
+		"type_id": 3,
+		"priority_id": 2,
+		"estimate": "10m",
+		"estimate_forecast": "10m",
+		"refs": "https://docs.google.com/spreadsheets/d/172GGDfEhzVJgAvnwW8FkX-ap0opQACtQa9t0vqeF6bU/edit#gid=1261413627",
+		"milestone_id": null,
+		"custom_dura_tc": null,
+		"custom_pfb_typeb": null,
+		"custom_automation_type": 0,
+		"custom_preconds": "Test 환경 : PC\n스마일클럽회원 : 클럽회원(Test계정)\n사은품/덤\n상품번호:1100310617\n상품 가격 : 4,600원\n배송 조건 : 상품별 배송비(유료/선결제)\n배송지: 제주도 및 부속도서\n구매 수량 : 3개",
+		"custom_steps": null,
+		"custom_expected": null,
+		"custom_steps_separated": [
+			{
+				"content": "1.VIP진입",
+				"expected": "1.할인 및 쿠폰 정상적으로 적용 되어야 함.\n![](index.php?/attachments/get/40414)",
+				"additional_info": "",
+				"refs": ""
+			},
+			{
+				"content": "1. 주문서 진입\n일반결제 - 신용/체크카드결제",
+				"expected": "1.주문금액이 정상적으로 적용 되어야 함.\n![](index.php?/attachments/get/40416)",
+				"additional_info": "",
+				"refs": ""
+			},
+			{
+				"content": "1. MY G 페이지 진입\n2. G_ADMIN (정산관리>>거래현황>>체결현황) 진입",
+				"expected": "1. MY G 페이지의 할인금액, 결제금액과 G_ADMIN의 할인금액, 결제금액 등 동일해야 함\n![](index.php?/attachments/get/22337)\n![](index.php?/attachments/get/22338)",
+				"additional_info": "",
+				"refs": ""
+			}
+		],
+		"custom_mission": null,
+		"custom_goals": null,
+		"sections_display_order": 54,
+		"cases_display_order": 57
+	}
+]

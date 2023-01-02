@@ -1,0 +1,212 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1208,1428.8" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.Vision.OCR</x:String>
+      <x:String>UiPath.OCR.Contracts</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>UiPath.OCR.Contracts.Activities</x:String>
+      <x:String>UiPath.Core.Activities.OCR.Engines</x:String>
+      <x:String>UiPath.Core.Activities.SAP</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Contracts</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Python</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="550.4,1364" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard WebDriverMode="{x:Null}" AttachMode="ByInstance" DisplayName="Use Application: Gmarket BACK-END 사용자 인증" sap:VirtualizedContainerService.HintSize="508.8,52.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="Simulate" ScopeGuid="2079efe1-9dd4-4f7d-9079-496a6327810c" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="375.2,768.8" sap2010:WorkflowViewState.IdRef="Sequence_8">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'LOGIN ID'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="333.6,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="2079efe1-9dd4-4f7d-9079-496a6327810c" Text="stc1825" Version="V1">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="109, 257, 90, 23" ElementType="InputBox" FriendlyName="'Edit'" FullSelectorArgument="&lt;wnd ctrlid='1000' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1000' /&gt;" Guid="ec72c7d9-a6c2-4c9c-b1c2-464f92c59573" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAF4AAAAbCAYAAAD1RzixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAB2SURBVGhD7dCxDcAwDMTArOuttJsX0AYO3KSJ4U5iQwJffXdPZi7XP+GhffAR4Yq3O8KPMVzR5px3eKtJeCjhoYSHEh5KeCjhoYSHEh5KeCjhoYSHEh5KeCjhoYSHEh5KeCjhoa7w+3R1O8JbTz941zvhkeV6AWqw2AYftO7IAAAAAElFTkSuQmCC" InformativeScreenshot="64d6f85ee9cc29165ca289115e0aca9b.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='devadmin.exe' cls='#32770' title='Gmarket BACK-END 사용자 인증' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="39, 257, 70, 28" ElementType="Text" FriendlyName="'LOGIN ID'" FullSelectorArgument="&lt;wnd ctrlid='65535' title='LOGIN ID' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='65535' title='LOGIN ID' check:text='LOGIN ID' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEoAAAAgCAYAAAC1v+5NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAElSURBVGhD7ZIBasRADAPz3fwqf8sH8oMrPjCorrxW0kJb0MHAxisrYbjtuq6XmbEoEYsaOI7jjUUNhKR93y1qwqJELErEokQsSsSiRKiobds+hVZEFmEZZMrjrMvkHZsnrAfBrMK3RLHcalfJ43Ocu75untQevOtmKx6LWmXufhjesfPdvqDrRKYO5JEo5QXKhzLYHtufOlkPY+pJ/oWoembPldUuMvUkvyYqZgjOpzN7rqx2kakn+RP/qC5b936iszL1JBY19CSPRAV3X67mu3OdrfqCqWc1ZzwWFbDcarfL47w71xm7Q9QelVZUB+ZYtt5XWB73ujOCux21p4JZBSrKfMWiRCxKJESd52lRE/mzKBGLErEoEYsSsSgRixKxKInr9QEARlO/HrcZ6wAAAABJRU5ErkJggg==" SearchSteps="Selector, FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'PASSWORD'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="333.6,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="2079efe1-9dd4-4f7d-9079-496a6327810c" Text="@FxnV*Qr848mLR#" Version="V1">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="323, 257, 90, 23" ElementType="InputBox" FriendlyName="'Edit'" FullSelectorArgument="&lt;wnd ctrlid='1001' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1001' /&gt;" Guid="90ee07e3-eaac-4104-b745-42ac60b78523" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAF4AAAAbCAYAAAD1RzixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAB2SURBVGhD7dCxDcAwDMTArOuttJsX0AYO3KSJ4U5iQwJffXdPZi7XP+GhffAR4Yq3O8KPMVzR5px3eKtJeCjhoYSHEh5KeCjhoYSHEh5KeCjhoYSHEh5KeCjhoYSHEh5KeCjhoa7w+3R1O8JbTz941zvhkeV6AWqw2AYftO7IAAAAAElFTkSuQmCC" InformativeScreenshot="2abddf789d49d49530c581571c779c83.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='devadmin.exe' cls='#32770' title='Gmarket BACK-END 사용자 인증' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="233, 257, 90, 28" ElementType="Text" FriendlyName="'PASSWORD'" FullSelectorArgument="&lt;wnd ctrlid='65535' title='PASSWORD' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='65535' title='PASSWORD' check:text='PASSWORD' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAF4AAAAgCAYAAACb+s/fAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFnSURBVGhD7ZXRCcNADEOzbrbKblkgG7RcwWCM7Nh3TfyjwoOeJJ+DPpLtuq4PeR8W3wSLf5njOH6w+JcZpe/7zuLfhsU3weKbYPFNsPgmWHwTsPht2yA6o8n6qzlvtqLL3YL1UUbI5GzGwy1enzN6ZWZWq+xAemaHpyG9MmspFT+IlkeeJZrTZHIZPbsDnTWZO6N54dHiPQ0xm5OzpyMPkc3P5BDLr5rMgwzd8zSZnPXl7OnIQ2Ty0Q7L3c6lj2tWE7x7LFHO6nL2dOQhbB6h85KzmhB5g/KrRlN9GGHlfq1b/06P0BkvX7n3budy8QiUtazkRLPenR6hM1F+JoeYLj6zNPtg2ZzVrOfpniZ49yC05+WieeHR4u3/f2iC51VnVvZWZzWPFy9njfY02dzA8zNzGi+D9IH29D2CzkbA4snzsPgmWHwTo/jzPFn828iPxTfB4ptg8U2w+CZYfBMsvgkW38L1+QJ9dCiWqjfKUgAAAABJRU5ErkJggg==" SearchSteps="Selector, FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ClickType="Single" DisplayName="Click 'unchecked'" sap:VirtualizedContainerService.HintSize="333.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2079efe1-9dd4-4f7d-9079-496a6327810c" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="323, 319, 90, 26" ElementType="Button" FriendlyName="'unchecked'" FullSelectorArgument="&lt;wnd ctrlid='1' title='로그인' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1' title='로그인' check:text='unchecked' /&gt;" Guid="e2e1c92d-8736-48fc-98c3-b02f99752ea7" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAF4AAAAeCAYAAACliqkCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADxSURBVGhD7dVRDsIgDMZxDsvLbsXduAA3mOmDZmKBagsl7jP5vcC6hb+LhlLKCeshvJNX+BgjLMCGx2fe5ziOfvicMxhLKcnCP9fABsI7QXgnCN8QQmDXrbiHpwOOcHOEu7bGzZHRdb1ZC9u/8ZoArVlJaIRH+PdBK3TAEW5OojXLrddrmudKbBGeW7eA8B0e4QntXXH79ZqlW/7USGhmJbb7c7U6sPY+CP+j0X20+1p/G35k1XNa3MLTwb9lMXu9R7220nZv/Cr1F8Ph5qzcNrw3hHeC8E4Q3okoPF0E9rrhaRPmaYaH+T7Cw1oI76KcD+2ULDY9JJEJAAAAAElFTkSuQmCC" InformativeScreenshot="5048af94a756a163ac3a07b7e29a2571.png" ScopeSelectorArgument="&lt;wnd app='devadmin.exe' cls='#32770' title='Gmarket BACK-END 사용자 인증' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="37, 304, 232, 28" ElementType="Text" FriendlyName="'DOMAIN : EBAYKOREA.CORP'" FullSelectorArgument="&lt;wnd ctrlid='65535' title='DOMAIN : EBAYKOREA.CORP' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='65535' title='DOMAIN : EBAYKOREA.CORP' check:text='DOMAIN : EBAYKOREA.CORP' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAOwAAAAgCAYAAAAR+ZTbAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAKlSURBVHhe7ZNRbiNBCER9/9P6Bln1ByuCCyjasWdaqkhPni4e9EwkHs/n82ex82e9Qojv8H9hhRD3RwsrxEFoYYU4CC2sEAehhRXiILSwQhyEFlaIg9DCCnEQWlghDuLXwj4ejxd8HcH47ByUZbl/Ro7VUD7F7kBUjp8RyRymz/9GspmeWEeOwXqLzI15hZ/X9TJudIxd72peFtafs8xgfebDs75uXuZYDeVTmDnIqfpWbdqzsDrb+06G8sxDLHfqM1mWv9M/uedK2oXN8upDYm2dOx/1oOesFp0si3za6d6rq2d5dCZzFky/4WuV55n2sPejs2fXncy8EmphF+zHGdHvZsd67O9q0cmyyKed7r3YvuqMZmRzPd0Mg/U8056duRns3Tve1XxtYWPW1VB/V6u8d2DmICfr8znjVGe2H+Eddg4zd8HM9uzMzWDujjnrXc0tF7by2Gd03mXNQUwd85jM51lPV49ZxDs2L+J91ovnLPN0dYPxvLOeEd6feFfz1YXdeUZZ5XZzdmDmZE71flVmMHOnM41uBsqnc6vMw8xdTO/P/Jiz91/NbRcWkbn23NV2YeZUTnwnhPc9WS3m3RnhncpnPWM5COQaXd1gPO9UPuvdCWphUc7+I7Jz5sTcgxzkM7OMbzjM+2S1SR6zyX2sW3mLyZ2eSe0TbuXdiXZh2Q+eZOuMMv+LQA7ymVnGpx2fV3OY/i7/68zwtcpbsHMQqJ71sG51p69V3p14WdiIryMYn53jfxHIyfyVV7Mm2CxE58Q5/uzJan+Rr8wT6+agfOFrfk4kuhFfyzybZSDHYNxqhq9V3p34tbBCfItTFuRuaGGFOAgtrBAHoYUV4iC0sEIchBZWiIPQwgpxEFpYIQ5CCyvEQWhhhTgILawQx/D8+QcppNEQKD32FgAAAABJRU5ErkJggg==" SearchSteps="Selector, FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="2667, 384, 446, 361" FilePath="C:\Users\STA-393\Desktop\auto\file\devadmin.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAACuSURBVFhH7Y5LCgMxDMXm6L15iyEPD41CPc1n9QRaxY58GWOMMWbA6101aEu74QMqHjqS4xUPHMjhJ4r24Uo4KEVlNszZZXAo5Fh1bpo+dHdT9Al8mPSBv+HDZB7I7yNzbxoOyAzx+8jcm4YDMkP8PjL3puGAzBC/j8y9ZXAo5BjPSt6ZgkNhH+O5u/3OEjj2j5sODDhYVbTPdsDhqqJ9ths+4tuDBxljjDEd1/UB8BMjCIYeruMAAAAASUVORK5CYII=" InformativeScreenshot="44f2b170bd4ded444e8f7ed0de12363a.png" Selector="&lt;wnd app='devadmin.exe' cls='#32770' title='Gmarket BACK-END 사용자 인증' /&gt;" />
+      </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </uix:NApplicationCard>
+    <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'devadmin.exe Dev'" sap:VirtualizedContainerService.HintSize="508.8,1178.4" sap2010:WorkflowViewState.IdRef="WindowScope_2" InformativeScreenshot="f1b73fd6864e672f5c7eebb6c026f318" Selector="&lt;wnd app='devadmin.exe' cls='Afx:*' title='Dev Admin Server (20130124)AD' /&gt;">
+      <ui:WindowScope.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="475.2,1031.2" sap2010:WorkflowViewState.IdRef="Sequence_7">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NApplicationCard WebDriverMode="{x:Null}" AttachMode="ByInstance" DisplayName="Use Application: Dev Admin Server (20130124)AD" sap:VirtualizedContainerService.HintSize="433.6,938.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="Simulate" ScopeGuid="e7ffae65-cd1f-44f7-a640-2fb7cba1f441" Version="V2">
+              <uix:NApplicationCard.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="375.2,647.2" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NClick ClickType="Single" DisplayName="Click 'devadmin.exe Dev'" sap:VirtualizedContainerService.HintSize="333.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_8" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e7ffae65-cd1f-44f7-a640-2fb7cba1f441" Version="V1">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable DesignTimeRectangle="704, 24, 62, 25" FriendlyName="'devadmin.exe Dev'" Guid="b190eb8f-bc63-4a70-82d0-03dce58a2201" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAD4AAAAZCAYAAABpaJ3KAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAF9SURBVFhH7ZVRFsQQDEVty4Zsx266mS7GJEIFiY5Of+bwzvFRKt7N0xkTFtUGX00bfDVt8NW0wVfTBl9Nr4Of3gbrz/TU6gjOmGCa4Y6yT91/uGDwxUpn8NZBVUHwfleH1ZDBTx+syQWxuA1Y43BkciR8pzd4rynw6C83TgfvfIzB2y4W8H6tFpo2sO6skc2j0LT1UAl95Lq0dwQeG9pB6n7i++mcSwieG5amimCxPpiDg7p1Un0Q7oFnMXm47lPgqRbuicYB9C5xXIezu1qjxA8ndZWBM+PxKSahfAK5w9ViC16++x6c1upG0ByVFBLvPlPmLfvBkaaSaihSCy4cNqUWnGb1xCdUQWcx/3ri34Dj/rfAS50xOKV8pVWNZ16+BOfFf0icXzU+IIVniSte4Byxhp64UIj9CpNYczQQYVzfmaJXEx/5ksHJAK3lw+prrnbzR92DT9yy+cRR0nUv4j9Ib+p54sJtepJ4FOsMF/51iZ38Q8ngC2hR8BA+UZ86mvMYooQAAAAASUVORK5CYII=" InformativeScreenshot="2738d38e790ef1e28d97c393f61deebc.png" ScopeSelectorArgument="&lt;wnd app='devadmin.exe' cls='Afx:*' title='Dev Admin Server (20130124)AD' /&gt;" SearchSteps="Image" TargetType="ImageBased" Visibility="Interactive" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NClick ClickType="Single" DisplayName="Click 'devadmin.exe'" sap:VirtualizedContainerService.HintSize="333.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e7ffae65-cd1f-44f7-a640-2fb7cba1f441" Version="V1">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable DesignTimeRectangle="27, 26, 122, 19" FriendlyName="'devadmin.exe'" Guid="07fad71a-b65f-44df-883d-6621e87eb96c" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHoAAAATCAYAAABfohl2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAHBSURBVGhD7ZaxlYMwDIYZJQOkTpEtWCEVJQuwQCpukLyXMe56ZrmUOgswSLZkIOGFI3bxFTE2Nv9n2cnq71+gfP08Eh9IEh0JSXQkJNGRsJ3o+gJZfvfaDmXD25DbFQ5ZBhlyvEJFnhX5CfIb6WuoylPXV0KY0+/XvxPndeYT+w99GsiPFyho/3/CfNE0bAMTwp7N/NDZou9wtsGb361EMk4Tfa552xKGd0qiPcz6PkV0VyH8A6ry0gfMRbQCJ8MxzBXttWGY43xLK1rbAHRzRCoaRQYW7wnjIjRaGW6IgmipOqnctSp6HEPWH9XRLVUZxRON4euV09FVQeEKISHaOd8vmkCupCGDYB47Fo0B0A/D350MG7BzdPfhhIIeQ3VOCylEr42fGJpou2E8aIWSjeVj1qVUdBSiLSxgGpgJJhfCt7QS6AmAY22YYoh8I7njJdGrEZNo7Q+JHnDgTlfeNWwmLcT+lLAbiY5fRXRoXkH0WPUU/OY9izbgnasH3EBRjyFhX33HTxCsFhn1ZJmAXS1PzCuzc9GId++R45M+eymwV0U/SxL9ZjYUzTYxY4m4JDqxMUl0JCTRkZBER8ED/gDNo1LiStGckQAAAABJRU5ErkJggg==" InformativeScreenshot="bb2fa3f26d338633681acda1616aa1fa.png" ScopeSelectorArgument="&lt;wnd app='devadmin.exe' cls='#32768' idx='*' /&gt;" SearchSteps="Image" TargetType="ImageBased" Visibility="Interactive" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NClick ClickType="Single" DisplayName="Click 'devadmin.exe'" sap:VirtualizedContainerService.HintSize="333.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_10" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e7ffae65-cd1f-44f7-a640-2fb7cba1f441" Version="V1">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable DesignTimeRectangle="25, 444, 106, 19" FriendlyName="'devadmin.exe'" Guid="1f233e05-56fc-4e89-a45b-24245cbb1b9c" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGoAAAATCAYAAAB4DJieAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAGxSURBVGhD7Za/lYMwDIc9SgZInSJbsAIVJQuwQCpukLyXMZKeWS6lzgIDsi3ZcO/+KefiK8DC4N8nA6a/vwPH2+NZ+EMUUUooopRQRCnh90X1NRzaITpnqpt/7nGDszFgRGpoaD3OEdWcoLrasesFDscLdLn6pWaA6hjM/8PsF4WLJIvxQvbGNi5ss6iJrj3BuSfnuOsFmiohKsI2hlZRGFIooGvrafFjx7sgcAzDzobh5uS6+4tE0fp/IgpFJB42ChcXR8RxYGD2GgzTCxvncjtzkRLs5Bj+Xqso8jycKHLPBZWiMp0bi8IOJkGHjMHPi8cgSC0z12eJdiBCpC9rSq5Pkaiw6/F46ry5k4NXnwuDFeVJmiEdH4rCYxdsjvF+yXp7X2FHvaSomeW9j8c0IBtERcf2EIpikJ5nE68sil2cxRPlkfmmOdadSRAksbUONmQpfEEUN+/086RJlAW/OeEf2ipqgKZfQ8HaXMePwXNShB2F9eyrVBKS3CV7UCYKibqaBErHtgQkiUqdL6ICuOLvIBKPcLtMqnVIorjaiT3BF1GFjRRRSiiilFBEqeAJHxjHZuBqgrMdAAAAAElFTkSuQmCC" InformativeScreenshot="70daab09d4b881e8770c768cdc102faf.png" ScopeSelectorArgument="&lt;wnd app='devadmin.exe' cls='#32768' idx='*' /&gt;" SearchSteps="Image" TargetType="ImageBased" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target DesignTimeRectangle="29, 442, 90, 23" FriendlyName="'devadmin.exe'" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFoAAAAXCAYAAACLbliwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAHASURBVGhD7ZaxlYMwDEAZJQOkTpEtWIGKkgVYIBU3SN7LGJeeQXgUl1JngQHZlm24S5TcxcUvsIUtfQsnWdd1gPR9n3ggWfP5BcjH9ZZ4IEm0EEm0EEm0EEm0EPKimwJ2VeuMZfnFHLte4JhlkHkpoKTxuIYTc4D8rObOJ9jtT1DH4ueYFvK9tf4viYvGJEkyhiRjbmViq0WP1NUBjg0Z4973UOYB0Q7qYJ8lGou0BdZVMSY/dJwuBOdQVrQYvSbXXXcSTeP/iGgUGdjMkYPJEfEcWLB6B2UYsnAt/WXMUq0vyYXfaxFN8uFEkz1nniI60jmuaOwgIspmEDclj4WQWGatn+J8AQg5tLmmYH2Cou2uw+fx5KdOsq4OXQwr2pA8QTrOFo3PWkyMYb9gvNrX09EvKXpivvfwmRaoCsnp3BZs0Qy+fFbxyqLZ5BSGaIPIna5ZvgyCRzIbq2El+eR5RHPrjj/+kqIVeOfa/xAW0S2UzVIUxsY6bhDHSfV0NMazV5FPaLBLtyAsGnG6igihc2sK9IkOjb+N6HvjHBzCdbkvVuMTzcWObBH3D0S/K0m0EEm0EEm0EEm0EEm0CDf4BqTKT/fGdHgCAAAAAElFTkSuQmCC" SearchSteps="Image" TargetType="ImageBased" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                  </Sequence>
+                </ActivityAction>
+              </uix:NApplicationCard.Body>
+              <uix:NApplicationCard.TargetApp>
+                <uix:TargetApp Area="1912, 1, 1936, 1056" FilePath="C:\Users\STA-393\Desktop\auto\file\devadmin.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAB+SURBVFhH7Y5RCoBACEQ9ejcvhBZdmNIVg4p58L4cZhRCCPkY2x6pnOFO8NiVzU/gkcimJ3C5agP4rlqmTLY4upeYS4dN5Rle/wC+ey1bIirFd69lS0Sl+O61bJlscTa3TKYYZ9Q5VwaXZ2x6QMEDdzaOe/DY8KFRQsivETkA6DZgh8wk9qkAAAAASUVORK5CYII=" InformativeScreenshot="debf7adc399f5b11344c855350ecc1db.png" Selector="&lt;wnd app='devadmin.exe' cls='Afx:*' title='Dev Admin Server (20130124)AD' /&gt;" />
+              </uix:NApplicationCard.TargetApp>
+            </uix:NApplicationCard>
+          </Sequence>
+        </ActivityAction>
+      </ui:WindowScope.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:WindowScope>
+  </Sequence>
+</Activity>

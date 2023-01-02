@@ -1,0 +1,47 @@
+{
+	"id": 80083,
+	"title": "일반회원 > 사은품/덤 > 일반결제 - 신용/체크카드결제 > 주문완료시 체결현황 확인",
+	"section_id": 4304,
+	"template_id": 2,
+	"type_id": 3,
+	"priority_id": 2,
+	"milestone_id": null,
+	"refs": "https://docs.google.com/spreadsheets/d/172GGDfEhzVJgAvnwW8FkX-ap0opQACtQa9t0vqeF6bU/edit#gid=1261413627",
+	"created_by": 38,
+	"created_on": 1664522156,
+	"updated_by": 38,
+	"updated_on": 1664522156,
+	"estimate": "10m",
+	"estimate_forecast": null,
+	"suite_id": 53,
+	"display_order": 38,
+	"is_deleted": 0,
+	"custom_dura_tc": null,
+	"custom_pfb_typeb": null,
+	"custom_automation_type": 0,
+	"custom_preconds": "Test 환경 : PC\n일반회원 : 일반회원(Test계정)\n사은품/덤\n상품번호:1100310617\n상품 가격 : 8,500원\n배송 조건 : 묶음 배송비(유료/착불&선결제)\n배송지: 제주도 및 부속도서\n구매 수량 : 4개",
+	"custom_steps": null,
+	"custom_expected": null,
+	"custom_steps_separated": [
+		{
+			"content": "1.VIP진입",
+			"expected": "1.할인 및 쿠폰 정상적으로 적용 되어야 함.\n![](index.php?/attachments/get/40414)",
+			"additional_info": "",
+			"refs": ""
+		},
+		{
+			"content": "1. 주문서 진입\n일반결제 - 신용/체크카드결제",
+			"expected": "1.주문금액이 정상적으로 적용 되어야 함.\n![](index.php?/attachments/get/40416)",
+			"additional_info": "",
+			"refs": ""
+		},
+		{
+			"content": "1. MY G 페이지 진입\n2. G_ADMIN (정산관리>>거래현황>>체결현황) 진입",
+			"expected": "1. MY G 페이지의 할인금액, 결제금액과 G_ADMIN의 할인금액, 결제금액 등 동일해야 함\n![](index.php?/attachments/get/22337)\n![](index.php?/attachments/get/22338)",
+			"additional_info": "",
+			"refs": ""
+		}
+	],
+	"custom_mission": null,
+	"custom_goals": null
+}

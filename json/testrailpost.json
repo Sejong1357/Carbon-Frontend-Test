@@ -1,0 +1,40 @@
+{
+	"id": 67586,
+	"title": "상품번호: 1100310488 환경체크(한반도 판매상태 체크)",
+	"section_id": 1968,
+	"template_id": 2,
+	"type_id": 6,
+	"priority_id": 2,
+	"milestone_id": null,
+	"refs": "https://docs.google.com/spreadsheets/d/172GGDfEhzVJgAvnwW8FkX-ap0opQACtQa9t0vqeF6bU/edit#gid=1261413627",
+	"created_by": 38,
+	"created_on": 1662595740,
+	"updated_by": 38,
+	"updated_on": 1662595740,
+	"estimate": "10m",
+	"estimate_forecast": null,
+	"suite_id": 25,
+	"display_order": 33,
+	"is_deleted": 0,
+	"custom_pfb_typeb": null,
+	"custom_automation_type": null,
+	"custom_preconds": "상품번호: 1100310488",
+	"custom_steps": null,
+	"custom_expected": null,
+	"custom_steps_separated": [
+		{
+			"content": "1.자동화 상품 상태 확인 (한반도)\nhttps://han-dev.ebaykorea.com/Hanbando/Authentication/Login\nItem할인/수수료 Item할인/수수료 G마켓 Item할인/수수료 > 자동화 상품 조회 여부 확인",
+			"expected": "1.한반도 상품 조회 완료",
+			"additional_info": "",
+			"refs": ""
+		},
+		{
+			"content": "1.한반도 팔자주문 추가",
+			"expected": "1.팔자주문 추가 확인",
+			"additional_info": "",
+			"refs": ""
+		}
+	],
+	"custom_mission": null,
+	"custom_goals": null
+}

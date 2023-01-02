@@ -1,0 +1,59 @@
+{
+	"id": 72805,
+	"title": "적용디바이스: PC (Safari, Chrome), 구매자: 일반회원 , 상품조건: 일반배송상품,  할인조건: [복수구매할인 (정율 2%), 바이어쿠폰 (정액 100원)], 결제조건: 간편결제 (SmilePay) - 캐시충전결제 (전액캐시결제),  주문완료 시 체결현황 확인",
+	"section_id": 4304,
+	"template_id": 2,
+	"type_id": 3,
+	"priority_id": 2,
+	"milestone_id": null,
+	"refs": "https://docs.google.com/spreadsheets/d/172GGDfEhzVJgAvnwW8FkX-ap0opQACtQa9t0vqeF6bU/edit#gid=1261413627",
+	"created_by": 1,
+	"created_on": 1663651425,
+	"updated_by": 38,
+	"updated_on": 1664183143,
+	"estimate": "30m",
+	"estimate_forecast": "30m",
+	"suite_id": 53,
+	"display_order": 1,
+	"is_deleted": 0,
+	"custom_dura_tc": null,
+	"custom_pfb_typeb": null,
+	"custom_automation_type": 0,
+	"custom_preconds": "Test 환경: PC(Safri, Chrome)\r\n구매자: 일반회원 ID: hoyeon0808- 바이어쿠폰 정액100원 (상품 1100310534에 사용가능 정액 쿠폰), Smile Pay 충전결제 계좌 등록되어 있음. \r\n상품조건: 일반배송상품 GoodsID: 1100310534, 복수구매할인: 2개이상 구매시 정율 2% 할인 설정, 상품 가격 : 4,500원, 배송조건: 유료조건\r\n",
+	"custom_steps": null,
+	"custom_expected": null,
+	"custom_steps_separated": [
+		{
+			"content": "1 .Precondition Setup\n2 .구매자hoyeon0808에게 상품 1100310534의 바이어 쿠폰 정액100원 할인 쿠폰 지급. ",
+			"expected": "1 .바이어 쿠폰 정액100원 할인쿠폰 발급 확인.\n      \n\n![](index.php?/attachments/get/68117)",
+			"additional_info": "",
+			"refs": ""
+		},
+		{
+			"content": "1.ESM진입",
+			"expected": "1. Precondition과 일치하는지 확인\n2. 상품 조건 Precondition과 일치하는지 확인.\n      \n\n![](index.php?/attachments/get/68118)",
+			"additional_info": "",
+			"refs": ""
+		},
+		{
+			"content": "1. 로그인한 상태에서 VIP진입\n  http://item-dev.gmarket.co.kr/Item?goodscode=1100310534\n2. 할인 확인\n3. 쿠폰 적용\n",
+			"expected": "1. 할인 및 쿠폰 정상적으로 적용 되어야 함.\n2. 할인적용 확인\n      \n\n![](index.php?/attachments/get/68119)\n ![](index.php?/attachments/get/68120)\n ![](index.php?/attachments/get/68121)",
+			"additional_info": "",
+			"refs": ""
+		},
+		{
+			"content": "1. 구매하기 버튼 클릭하여 주문서 진입\n2. 결제수단 선택-간편결제-캐시충전결제\n3. 구매하기 버튼 선택",
+			"expected": "1. 주문서 금액 확인\n2. 주문완료 확인\n      \n\n![](index.php?/attachments/get/68122)\n![](index.php?/attachments/get/68123)",
+			"additional_info": "",
+			"refs": ""
+		},
+		{
+			"content": "1. MY G 페이지 진입\n2. G_ADMIN (정산관리>>거래현황>>체결현황) 진입",
+			"expected": "1. MY G 페이지의 할인금액, 결제금액과 G_ADMIN의 할인금액, 결제금액 등 동일해야 함\n\n  ![](index.php?/attachments/get/22337)\n  ![](index.php?/attachments/get/22338)\n\n",
+			"additional_info": "",
+			"refs": ""
+		}
+	],
+	"custom_mission": null,
+	"custom_goals": null
+}

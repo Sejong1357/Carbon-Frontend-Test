@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "phrasal-bonus-353607",
+  "private_key_id": "9031a53f71c4be9f00ca971e90ea0097550c1a24",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDFHeWpDGAGGFq+\nI94PS53nw8m1B5KDM66rBrNSP0388QE/+2M4pWcNPL0sNVPH8XDNLKNpxnj8SwR+\n3uN0PQpBSHZYzLrAm0OmSEOXAHsOGdBbJgpmmz1ELkj/0PZjUhxh00nAlcM9pxCN\n5GUmSz15IcZ8ddRKJmtM2cxO2QwOexJeU/CIVO7I76f+sGAYsJ/IYHImtm9O1UrR\n4GpH6NFILWWwxUL9p8v7OWoyI/iJ0ieG3KBwRBFJwpXFfRZma3guBTX2tA9nMqxQ\ntXlQR2H1UzVnBl1OnPVSUSotGf5/uNJNobyxmyX9q9/kcBEj0dzlpBMf5odRtHdn\niDo15WJhAgMBAAECggEADsPPiRsZMjuuyGFNZ93lJRAgUsQPcG51ne/xjK6bO+Ad\nlNpSs1KIZpBvJxmTff2S0nuOfgTU2SkRXCN77CAKXZt86efj8TtwFMuC7JOnpAXA\n+qLd0pO8QhgpdagEXKow4A8AjkFpj3utHMPH49ds8l7aTEZTMX6xON9zk1Bku8zQ\nceNQY/nrKD23Tf7VkBJc7VBC6JdtFyE8VaYvq8UVDmwFMJblBOMAYlFInuVjx/53\ngB22P/s/Z5m6VdIYliD6aWYQdI2Jh6Bvdzq5wu4qRuO6jTzf+6M7bbRQNfELL5Jy\nMnp8686ZuGrzYfUTlkQuItOmSUGXftU9N5+0IRuh8QKBgQDyigRWj5kL6NdTQ75m\npNYmO5uUqWXXhrEek0PVbKugxKJS6k8eu8KnILaRc+wbjRAZifE9w0vqIyjVcWRp\njmwiASY2JUT/t8QECLaxYeHhPujI/RSLuAFfit5jMpedqq2JulhrADX1gvNoqmR7\nws1jrZO0/CGZYOcNEKxaoN0CpQKBgQDQDoWdCITcqUr90A7wskefeqnXIo7SyR15\nOQEpEQSDMi/Hzh99fvXr/pBAkAN4XyaFK6JOMnH0ABuNxHSKaeGVXD/zvU3+kmMT\nTwZ/4QzWpsVL3+I28IBpdKYmCHjUDLTVEaj97RQsnpBs9Uns62GXQaupcq1e+k6w\nv2wGwYdADQKBgQCcqYG71+1nv/K2Gd/2tSqOb5pDIFhkKuBle4IpbZQ+uESRgj+w\n/l7xTTQgJ9yuvyNTG8Lzvh5fEm7hz+ioNhKqtEtWViSHeM/oOyim0y7wK455pN+M\nkEJy0GRtdtRwRzro57ENDInOF9PaG5XkSyQX6pqqIOIjDHCyA78Qmy+m8QKBgEsp\ns+NzPGxrTIg9LeiOv4lByzHJbkeAGIG+skifuT2cV96a/I1d3IIRSRPJ8zb9SPE7\nPjt5xekcUNf6bQ/ECJbo6MGpVg/t2pUTK4nvR7AUN5qdmx+16u4uEggTb3NL09hV\ntPNnPq6P6iUyyC4rKup18woYP8HcM6luvhwCtlXRAoGBANhXQ7g86QpdI2kUeNbl\nfBVTih8H87aIXz576d5Y9jr3RWi2rlUOQH8/iD37g4318q9IJVz/uZGuV3NRDCNX\n4k4bV82s1qIEmngBYCaSWrKYKtDBy5v04Is02X/kmXjrY80e5BV/ACG88SPKNKeq\nfHdW23sG8VHGcjbE1DFjRMfp\n-----END PRIVATE KEY-----\n",
+  "client_email": "service-account@phrasal-bonus-353607.iam.gserviceaccount.com",
+  "client_id": "113456947725095342497",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/service-account%40phrasal-bonus-353607.iam.gserviceaccount.com"
+}
